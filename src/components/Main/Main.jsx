@@ -36,7 +36,6 @@ class Main extends Component {
 
     return <main>
 
-
         <Form  onSubmitForm={this.handleForm} data={this.state.email}/>
         <Card data={this.state}/>
     
